@@ -150,7 +150,7 @@ if __name__ == "__main__":
     window1.mainloop()
     
     " Start "
-    print(path.get())
+    
     t = CropRect(path.get())  #  (path.get()) --> with Tkinter & window1 ; (path) --> without Tkinter or window1 ;
     t.main_window()
         
