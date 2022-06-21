@@ -1,0 +1,17 @@
+
+* kepvago.py
+
+Fejlesztési tervek nagy vonalakban:
+
+Gombok formázása:
+- Felugró ablak a 'Kép betöltése' ablakon
+- Főablakon
+
+Főablak:
+- műveleti opciók: képvágás, maszkolás
+- jelölő szín választása
+- jelölő méretezése
+- jelölő forma választása
+
+- képre nagyítás, kicsinyítés
+- kép forgatása
