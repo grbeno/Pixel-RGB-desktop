@@ -31,7 +31,7 @@ Válassza ki a vizsgálati képet, majd jelölje ki az ellentétes sarokpontokat
 
 Töltse ki az űrlapot a megfelelő paraméterekkel:
 
-```$ python pixel_1.1.py```
+```$ python pixel.py```
 
 #### English
 The Pixel-RGB is a python solution for analysing images by their pixels.
@@ -65,5 +65,5 @@ Select the image and click on the points of the opposite corners of the selected
 
 Fill the form with the appropriate parameters:
 
-```$ python pixel_1.1.py```
+```$ python pixel.py```
 <br/>

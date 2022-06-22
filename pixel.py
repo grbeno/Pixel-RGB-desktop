@@ -36,7 +36,7 @@ class CropImage:
     # Határolók számolása **
 
     def _borders(self):
-        #ImageAnalysis.init_image(self, self.im) # <- ImageAnalysis osztályból!
+        # ImageAnalysis.init_image(self, self.im) # <- ImageAnalysis osztályból!
         t, j = self.top, 0 # t-> ellenőrzés vonala
         R,G,B = self.color[0],self.color[1],self.color[2]
         try:
@@ -354,7 +354,7 @@ class ImageAnalysis(CropImage):
             self.avgsG.append(self.avg_color()[1])
             self.avgsB.append(self.avg_color()[2])
             
-            # self.freq.append(self.most_freq())
+            self.freq.append(self.most_freq())
             
             # ... <-
             
@@ -373,16 +373,12 @@ class ImageAnalysis(CropImage):
             self.distSum,
             self.distPerc,
             self.classify(self.distPerc),
-            # self.light,
-            # self.classify(self.light),
-            # self.dark,
-            # self.classify(self.dark),
             
             self.avgsR,
             self.avgsG,
             self.avgsB,
             
-            # self.freq
+            self.freq
             
             # ... <-
             
@@ -609,6 +605,8 @@ def submit(): # <- gomb lenyomása után hajtja végre
 
 
 if __name__ == "__main__":
+
+    """ KÉPELEMZÉS """
 
     " pos=1, ha az előző objektum mellett legyen "
     

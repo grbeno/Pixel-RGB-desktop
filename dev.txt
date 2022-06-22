@@ -15,3 +15,8 @@ Főablak:
 
 - képre nagyítás, kicsinyítés
 - kép forgatása
+
+* pixel.py
+
+A számozott jelölés minden felbontásnál más-más formázást (betűméret, szín) igényel!
+A program nagyobb felbontású kép feldolgozásakor lassú!

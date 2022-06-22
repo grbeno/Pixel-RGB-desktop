@@ -21,7 +21,7 @@ class Form(tk.Tk):
         button.pack()
 
     def f_dialog(self):
-        filepath = filedialog.askopenfilename(initialdir = "/",title = "Tallóz", filetypes = (("png files","*.png"),("all files","*.*")))
+        filepath = filedialog.askopenfilename(initialdir = "/",title = "Tallóz", filetypes = (("jpg files","*.jpg"),("png files","*.png"),("all files","*.*")))
         self.value_entry.set(filepath)
         self.destroy()
 
@@ -108,9 +108,6 @@ class CropRect(Form):
         rect = cv2.boundingRect(self.pts)
         x,y,w,h = rect
         cropped = self.img1[y:y+h, x:x+w]
-
-        # Mask the image
-        # Soon ...
         
         # Save new image to new folder
 
@@ -123,7 +120,7 @@ class CropRect(Form):
 
     def __saveNewImg(self, image):
         
-        folder_name = "img" #self.path[:-4]
+        folder_name = "img"
         if os.path.exists(folder_name) == False:
             os.mkdir(folder_name)
         
@@ -134,7 +131,6 @@ class CropRect(Form):
 if __name__ == "__main__":
 
     " Without Tkinter\window1 "
-
     # image = 'marc_zold_4.png'
     # path = f'f:\\pixel\\repce_2021\\Repce 2021\\kivalasztott\\{image}'
 

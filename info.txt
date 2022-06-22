@@ -1,0 +1,3 @@
+INFO:
+darabok/, darabok*.jpg, img/ törölhetők. 
+a *_/ mappák törlése nem javasolt!
