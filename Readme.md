@@ -1,6 +1,6 @@
 ## Pixel elemző program
 
-#### Magyar
+### Magyar
 Válasszon RGB színt az objektum felismeréshez (pl. repce virágzás, növénybetegségek).
 <br/><br/>
 ***(1)*** kepvago.py - előkészíti a képet (baseimage) RGB elemzéshez.
@@ -32,15 +32,15 @@ Válassza ki a vizsgálati képet, majd jelölje ki az ellentétes sarokpontokat
 Töltse ki az űrlapot a megfelelő paraméterekkel:
 
 ```$ python pixel.py```
-
-#### English
+##
+### English
 The Pixel-RGB is a python solution for analysing images by their pixels.
 Pick an RGB color then find the object (blooming, diseases etc.) on the image.
 <br/><br/>
 ***(1)*** kepvago.py - prepare the image (baseimage) for RGB analysis.
 <br/>
 ***(2)*** pixel_1.1.py - RGB analysis by parameters (part images, R,G,B, euclidean distance).
-### How to use
+### How to use?
 Download and unzip the zip file then open your CLI.
 
 If you have not installed virtual environment yet, then you can do:
