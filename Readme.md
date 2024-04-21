@@ -59,7 +59,7 @@ Install the required librarires with the command below:
 
 ```$ pipenv install -r requirements.txt```
 
-Select the image and click on the points of the opposite corners of the selected table to constitute a diagonal line:
+Select the image, then mark the opposite corners to form a diagonal on the image.:
 
 ```$ python kepvago.py```
 
