@@ -35,7 +35,7 @@ Töltse ki az űrlapot a megfelelő paraméterekkel:
 ##
 ### English
 The Pixel-RGB is a python solution for analysing images by their pixels.
-Pick an RGB color then find the object (blooming, diseases etc.) on the image.
+Pick an RGB color then the algorithm finds the object (blooming, diseases etc.) on the image.
 <br/><br/>
 ***(1)*** kepvago.py - prepare the image (baseimage) for RGB analysis.
 <br/>
